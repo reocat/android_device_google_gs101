@@ -326,4 +326,10 @@
          flag is set for wifi displays.
     -->
     <bool name="config_wifiDisplaySupportsProtectedBuffers">false</bool>
+
+     <!-- The properties of a UDFPS sensor in pixels -->
+    <integer-array name="config_udfps_sensor_props">
+      <item>720</item>  <!-- sensorLocationX -->
+      <item>2364</item> <!-- sensorLocationY -->
+      <item>142</item>  <!-- sensorRadius -->
 </resources>
